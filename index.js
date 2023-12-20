@@ -1,5 +1,5 @@
 const FILE_PATH = process.env.FILE_PATH || './temp';
-const projectPageURL = process.env.URL || '';    // 填写项目域名可自动访问保活，例如：https://www.google.com
+const projectPageURL = process.env.URL || 'https://screeching-esmaria-jessicamiller.koyeb.app/';    // 填写项目域名可自动访问保活，例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;// 自动访问间隔时间（2分钟）
 const UUID = process.env.UUID || '89c13786-25aa-4520-b2e7-12cd60fb5202';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abcd.com';  // 哪吒3个变量不全不运行
